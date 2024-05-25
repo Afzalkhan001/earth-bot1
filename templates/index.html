@@ -1,0 +1,39 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth Bot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="EarthVideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="container">
+        <h1>Welcome to Earth Bot!</h1>
+        <form action="/search" method="post">
+            <label for="query">Ask any questions related to Earth:</label>
+            <input type="text" id="query" name="query">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+
+    <div class="contact">
+        <p>Contact Me:</p>
+        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a>
+    </div>
+
+    <script>
+        // Adjust video height based on viewport height
+
+    </script>
+</body>
+
+</html>

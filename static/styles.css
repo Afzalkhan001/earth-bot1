@@ -1,0 +1,96 @@
+/* styles.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set video as background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    /* Hide scroll bars */
+    position: relative;
+}
+
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    /* Ensure video is behind other content */
+}
+
+/* Container for content */
+.container {
+    position: relative;
+    z-index: 1;
+    /* Ensure content is above video */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: #ff8000;
+    /* Text color */
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #88ff00;
+    /* Header color */
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ff4500;
+    /* Input border color */
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #71f802;
+    /* Button background color */
+    color: #010101;
+    /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.result p {
+    font-size: 16px;
+}
+
+a {
+    color: #e41b1bf6;
+    /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+/* CSS for video
